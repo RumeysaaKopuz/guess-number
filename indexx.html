@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Toplama Fonksiyonu Örneği</title>
+  </head>
+  <body>
+    <input type="number" id="input-a">
+    <input type="number" id="input-b">
+    <button onclick="toplama()">Topla</button>
+    <script>
+      function toplama() {
+        var a = parseInt(document.getElementById("input-a").value);
+        var b = parseInt(document.getElementById("input-b").value);
+        var sonuc = a + b;
+        alert("Toplam: " + sonuc);
+      }
+    </script>
+  </body>
+</html>
